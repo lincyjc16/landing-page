@@ -1,0 +1,36 @@
+
+
+.flex-container-header {
+  display: flex;
+ 
+  
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container-header div {
+  background: #1f2937;
+ 
+  flex: 1 1 auto;
+
+}
+
+.flex-container-header  .header-logo{
+    
+    color: white;
+    font-size: 24px;
+    width: 800px;
+    font-weight: 900;
+}
+
+.flex-container-header .header-link a{
+    color: white;
+    text-decoration: none ;
+    text-align: none;
+    font-size: 18px;
+    position: relative;
+    top: 20px
+    
+  
+    
+    
+}
