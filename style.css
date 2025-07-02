@@ -9,28 +9,65 @@
 /* this selector selects all divs inside of .flex-container */
 .flex-container-header div {
   background: #1f2937;
- 
   flex: 1 1 auto;
 
 }
 
 .flex-container-header  .header-logo{
     
-    color: white;
+    color: #F9FAF8;;
     font-size: 24px;
     width: 800px;
     font-weight: 900;
+    font-family: Roboto,sans-serif;
+  
 }
 
 .flex-container-header .header-link a{
-    color: white;
+    color: #E5E7EB;
     text-decoration: none ;
     text-align: none;
     font-size: 18px;
+    font-family: Roboto,sans-serif;
     position: relative;
-    top: 20px
-    
-  
-    
-    
+    top: 20px    
+}
+
+.hero{
+  display:flex;
+}
+
+.hero-content {
+  background:#1f2937;
+  flex: 1 1 auto;
+  color: #F9FAF8;
+  font-family: Roboto,sans-serif;
+  width: 400px;
+  height: 300px;
+}
+
+.hero-content h1{
+  font-size: 48px;
+  font-family: Roboto,sans-serif;
+}
+
+.hero-content p{
+  font-size:18px;
+  color:#E5E7EB;
+  font-family: Roboto,sans-serif;
+}
+
+.hero-content button{
+  background: #3882FA;
+  font-family: Roboto,sans-serif;
+  color:#E5E7EB;
+  border-radius: 5px;
+  width:80px;
+  height: 30px;
+}
+
+.hero-image{
+  width: 400px;
+  height: 300px;
+  background:rgb(107, 102, 102)
 }
