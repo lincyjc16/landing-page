@@ -1,40 +1,52 @@
 
 
-.flex-container-header {
+.header {
   display: flex;
- 
+  background: #1f2937;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
   
 }
 
-/* this selector selects all divs inside of .flex-container */
-.flex-container-header div {
-  background: #1f2937;
-  flex: 1 1 auto;
 
-}
-
-.flex-container-header  .header-logo{
+.header-logo{
     
     color: #F9FAF8;;
     font-size: 24px;
-    width: 800px;
     font-weight: 900;
     font-family: Roboto,sans-serif;
+   
   
 }
 
-.flex-container-header .header-link a{
-    color: #E5E7EB;
-    text-decoration: none ;
-    text-align: none;
-    font-size: 18px;
-    font-family: Roboto,sans-serif;
-    position: relative;
-    top: 20px    
+
+ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 20;
+  gap: 8px;
+  
 }
 
+a {
+  font-size: 18px;
+  padding: 18px;
+  text-decoration: none;
+  color:#E5E7EB;
+  font-family: Roboto,sans-serif;
+}
 .hero{
   display:flex;
+  background:#1f2937;
+  padding-left:200px;
+  padding-right:200px;
+  padding-top:100px;
+  padding-bottom: 100px;
+  gap: 100px;
 }
 
 .hero-content {
@@ -42,19 +54,26 @@
   flex: 1 1 auto;
   color: #F9FAF8;
   font-family: Roboto,sans-serif;
-  width: 400px;
-  height: 300px;
+  width: 600px;
+  height: 250px;
+  
+  
+  
 }
 
 .hero-content h1{
   font-size: 48px;
   font-family: Roboto,sans-serif;
+  margin:0;
+  padding:0;
 }
 
 .hero-content p{
   font-size:18px;
   color:#E5E7EB;
   font-family: Roboto,sans-serif;
+  margin:0;
+  padding:0;
 }
 
 .hero-content button{
@@ -64,10 +83,39 @@
   border-radius: 5px;
   width:80px;
   height: 30px;
+  margin-top:15pt
 }
 
 .hero-image{
-  width: 400px;
-  height: 300px;
-  background:rgb(107, 102, 102)
+  width: 600px;
+  height: 250px;
+  background:rgb(107, 102, 102);
+  
+}
+
+.information{
+  display: flex;
+}
+
+.infotmation-content{
+  flex:1 1 auto
+}
+
+.information-content h2{
+  font-family: Roboto,sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;;
+ 
+}
+
+.information-content .subtext-image{
+  width: 50px;
+  height: 50px;
+  border: 4px
+  border-coLOR #3882FA SOLID;
+  font-family: Roboto,sans-serif;
+  align-items: start;
+  flex: 1 1 auto
+ 
 }
