@@ -26,8 +26,7 @@
 
 .right-links{
   
-  flex: 1
- 
+  flex: 1;
   
 }
 
@@ -35,20 +34,18 @@ ul{
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 20;
-  gap: 8px;
-  flex 1;
   justify-content: end;
+  gap: 18px;
  
   
 }
 
 a {
   font-size: 18px;
-  padding: 18px;
   text-decoration: none;
   color:#E5E7EB;
   font-family: Roboto,sans-serif;
+  justify-content: space-between;
   flex: 1;
 }
 .hero{
